@@ -1,1 +1,15 @@
-my first script
+#!/bin/bash
+
+#ECHO COMMAND
+echo Hello world!
+
+# VARIABLES
+# Uppercase by convention
+# letters, numbers, underscore
+ NAME="Glamour"
+ echo "My name is $NAME"
+ echo "My name is ${NAME}"
+
+# USER INPUT
+read -p "Enter your name: " NAME
+echo "Hello $NAME, nice to meet you!"
